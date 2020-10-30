@@ -28,7 +28,8 @@ nueva= EscalaDeGrises(img)
 filtro= [[1,1,1],[1,0,1],[1,1,1]]
 
 final=convolucion(nueva,filtro)
-final= cv2.cvtColor(final,cv2.COLOR_GRAY2RGB)
+#cv2.imshow("Imagen",final)
+#cv2.waitKey(0)
 
 cv2.imwrite("ImagenSinP.jpg",final)
 

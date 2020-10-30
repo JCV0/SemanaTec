@@ -38,7 +38,8 @@ filtro= [[1,1,1],[1,0,1],[1,1,1]]
 ConPadding= CrearPadding(nueva)
 
 final=convolucion(ConPadding,filtro)
-final= cv2.cvtColor(final,cv2.COLOR_GRAY2RGB)
+#cv2.imshow("Imagen",final)
+#cv2.waitKey(0)
 
 print("Dimensiones: \n")
 print(final.shape)
