@@ -20,5 +20,6 @@ def Blanco_y_Negro(A):
     return B
 
 nueva= Blanco_y_Negro(img)
-nueva= cv2.cvtColor(nueva,cv2.COLOR_GRAY2RGB)
+cv2.imshow("imagen", nueva)
+cv2.waitKey(0)
 cv2.imwrite('ImagenByN.jpg',nueva)
