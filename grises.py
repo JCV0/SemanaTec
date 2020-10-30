@@ -15,4 +15,5 @@ def escala_grises():
 	cv2.imshow("imagen",imagen)
 	cv2.imshow("imagegn",Matriz)
 	cv2.waitKey(0)
+	cv2.imwrite("ImagenGris.jpg",Matriz) 
 escala_grises()
