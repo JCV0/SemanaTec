@@ -5,7 +5,7 @@ img = cv2.imread('venom.jpg')
 
 def convolucionPadding (A, B):
     C = np.zeros (len(A), len(A[0])
-    for row in range (0, len(A)]:
+    for row in range (0, len(A)):
         for col in range (0, len(A[0]):
             sum = 0
             for x in range (0, len(B)):
